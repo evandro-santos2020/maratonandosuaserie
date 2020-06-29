@@ -60,7 +60,7 @@ h3 {
     margin-left: 40%;
     margin-right: auto;
     margin-top: 0px;
-    width: 20%;
+    max-height: 200px
   }
 
   .logocomfundo2 {
@@ -356,5 +356,6 @@ h3 {
     }
 
 }
+
 
 
