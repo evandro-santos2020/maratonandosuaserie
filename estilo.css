@@ -7,7 +7,6 @@ body {
     background-color: white;
     background-image: url(imagens/darkbg.jp2);
     background-repeat: no-repeat;
-    background-size: 100%;
     margin-bottom: 10%;
     height: 200%;
     background-size: 170%;
@@ -52,7 +51,7 @@ h3 {
     display: block;
     margin-left: 25%;
     margin-right: auto;
-    margin-top: 10%;
+    margin-top: 30%;
     width: 50%;
   }
 
@@ -382,7 +381,7 @@ background-color: black;
         background-color: white;
         background-image: url(imagens/darkbg.jpg);
         background-repeat: no-repeat;
-        margin-bottom: 10%;
+        margin-bottom: 2%;
         background-size: 100%;
         
     }
@@ -405,6 +404,36 @@ background-color: black;
   border-radius: 25px;
  
 }
+
+.container-fluid-apx-serie{
+  background-color: white;
+  background-image: url(imagens/pessoasbg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 10%;
+  height: 200%;
+  background-size: 170%;
+  
+}
+
+.msgdownload3{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 37px;
+  text-align: center;
+  color: #FFFFFF;
+  }
+
+  .ul-menu{
+    height: 50px;
+    color: white;
+  }
+
+
+
+
 
 
 
