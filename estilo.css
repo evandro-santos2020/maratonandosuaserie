@@ -61,7 +61,7 @@ h3 {
     margin-left: 40%;
     margin-right: auto;
     margin-top: 0px;
-    max-height: 200px
+    max-height: 150px
   }
 
   .logocomfundo2 {
@@ -402,7 +402,10 @@ background-color: black;
 .container-mensagem{
   background: rgba(0, 0, 0, 0.8);
   border-radius: 25px;
- 
+  width: 50%;
+  margin-left: 10%;
+  margin-top: 5%;
+  max-height: 400px;
 }
 
 .container-fluid-apx-serie{
@@ -410,9 +413,9 @@ background-color: black;
   background-image: url(imagens/pessoasbg.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  margin-bottom: 10%;
-  height: 200%;
-  background-size: 170%;
+  /* margin-bottom: 10%; */
+  height: 250%;
+  background-size: 100%;
   
 }
 
@@ -420,7 +423,7 @@ background-color: black;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 200;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 37px;
   text-align: center;
   color: #FFFFFF;
@@ -430,6 +433,15 @@ background-color: black;
     height: 50px;
     color: white;
   }
+
+
+
+
+
+
+
+
+
 
 
 
