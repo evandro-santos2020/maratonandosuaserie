@@ -9,8 +9,21 @@ body {
     background-repeat: no-repeat;
     margin-bottom: 10%;
     height: 200%;
-    background-size: 170%;
+    background-size: 100%;
     
+}
+
+.menu-dark{
+  background-image: url(imagens/darkbg.jp2);
+}
+
+
+.Dark-menu{
+  background-image: url(imagens/darkbg.jp2);
+  background-repeat: no-repeat;
+  margin-bottom: 10%;
+  /* height: 200%; */
+  background-size: 100%;
 }
 
 #rodape {
@@ -51,7 +64,7 @@ h3 {
     display: block;
     margin-left: 25%;
     margin-right: auto;
-    margin-top: 30%;
+    margin-top: 40%;
     width: 50%;
   }
 
@@ -382,9 +395,8 @@ background-color: black;
         background-image: url(imagens/darkbg.jpg);
         background-repeat: no-repeat;
         margin-bottom: 2%;
-        background-size: 100%;
-        
-    }
+        background-size: 140%;
+     }
 
 }
 
@@ -453,8 +465,8 @@ background-color: black;
     background-image: url(imagens/lgbtqi.png);
     background-repeat: no-repeat;
     margin-bottom: 10%;
-    height: 200%;
-    background-size: 170%;
+    height: 250%;
+    background-size: 100%;
 
 }
 
@@ -463,6 +475,7 @@ background-color: black;
   border-radius: 25px;
   margin-left: 10%;
   margin-right: 10%;
+  height: 300px;
 }
 
 .msgdownload-lgbtqi{
@@ -483,12 +496,13 @@ background-color: black;
     line-height: 37px;
     text-align: center;
     color: black;
+    margin: 5%;
   }
 
   #bglgbtqi {
     background-color: white;
     background-image: url(imagens/lgbtqi.png);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: 100%;
     align-items: center;
     text-align: center;
@@ -566,6 +580,7 @@ background-color: black;
   background: white;
   border-radius: 25px;
   display: flex;
+  margin: 10%;
 }
 
 .form-control111{
@@ -592,6 +607,13 @@ background-color: black;
   padding-left: 10px;
 
 }
+
+
+
+
+
+
+
 
 
 
