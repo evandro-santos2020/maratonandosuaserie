@@ -1,441 +1,90 @@
-body {
-    background-color: white;
-
-}
-
-.container-fluid {
-    background-color: white;
-    background-image: url(imagens/darkbg.jp2);
-    background-repeat: no-repeat;
-    margin-bottom: 10%;
-    height: 200%;
-    background-size: 170%;
-    
-}
-
-#rodape {
-    background-color: black;
-
-}
-
-h3 {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 37px;
-    color: #FFFFFF;
-    padding-left: 43px;
-}
-
-@font-face {
-    font-family: Montserrat;
-    src: url(fonts/gill-sans.otf);
-  }
-
-  @font-face {
-    font-family: GilLight;
-    src: url(fonts/gill-sans-ce-light.otf);
-  }
-
-  .logosemfundo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    width: 25%;
-
-  }
-
-  .logocomfundo {
-    display: block;
-    margin-left: 25%;
-    margin-right: auto;
-    margin-top: 30%;
-    width: 50%;
-  }
+<html lang="pt-BR">
 
 
-  .logocomfundo1 {
-    display: block;
-    margin-left: 40%;
-    margin-right: auto;
-    margin-top: 0px;
-    max-height: 150px
-  }
-
-  .logocomfundo2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    width: 20%;
-  }
-
-  .logocomfundofinal{
-    display: block;
-    margin-left: 40%;
-    margin-right: auto;
-    margin-top: auto;
-    width: 30%;
-
-  }
-
-#logoscabecalho {
-  display: flex;
-
-}
-
-.facebook {
-  display: flex;
-  margin-left: 20%;
-  margin-top: 0px;
-  width: 70px;
+    <head>
   
-}
+        <meta charset="utf-8">
 
-.insta {
-  display: flex;
-  margin-right: 0px;
-  margin-top: 0px;
-  padding-left: 5px;
-  width: 70px;
-}
+    </head>
 
-  #dark {
-    display: flex;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 144px;
-    line-height: 163px;
-    letter-spacing: 0.6em;
-    font-family: GilLight;
-    color: #FFFFFF;
-    align-items: center;
-    text-align: center;
+    <title>Maratonando sua série!</title>
 
-  }
+    <link rel="apple-touch-icon" sizes="57x57" href="imagens/Logo/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="imagens/Logo/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="imagens/Logo/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="imagens/Logo/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="imagens/Logo/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="imagens/Logo/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="imagens/Logo/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="imagens/Logo/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/Logo/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="imagens/Logo/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/Logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="imagens/Logo/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/Logo/favicon-16x16.png">
+    <link rel="manifest" href="imagens/Logo/manifest.json">
+    <meta name="msapplication-TileColor" content="#FFC000">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#FFC000">
 
-  .card {
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 25px;
-    display: flex;
-  }
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilo.css" />
+       
+    <body>
+    <div class="container-fluid">
 
-.card-header {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 34px;
-    line-height: 41px;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
+      <div class="col-xs-12 col-sm-12" id="logoscabecalho">
 
-.card-body {
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family: GilLight;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
-    line-height: 27px;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
-}
+        <div class="btn-group" role="group" style="height: 100%; margin-top: 2%;">
+            <button type="button" class="btn btn-secondary"><a href="./index.html" 
+                style="color: white; height: 50%;">Home</button></a>
+        </div>
 
-
-.card-footer {
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 34px;
-    line-height: 41px;
-    display: block;
-    align-items: center;
-    color: #FFFFFF;
-
-}
-
-.form-group {
-    font-family: GilLight;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    display: block;
-    align-items: center;
-    color: #FFFFFF;
-    
-}
-
-.info {
-    font-family: GilLight;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 26px;
-    line-height: 32px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-    margin-bottom: 20px;
-}
-
-
-.form-control1{
-  margin-bottom: 7px;
-  width: 100%;
-  border: 2px solid #FFFFFF;
-  box-sizing: border-box;
-  border-radius: 15px;
-  background: #EBD016;
-  height: 40px;
-  text-align: left;
-  padding-left: 10px;
-}
-
-.form-control2{
-  width: 100%;
-  border: 2px solid #FFFFFF;
-  box-sizing: border-box;
-  border-radius: 15px;
-  background: #EBD016;
-  height: 40px;
-  text-align: left;
-  padding-left: 10px;
-}
-
-#button {
-
-    background: #EBD016;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
-    color: #000000;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 32px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-left: 40%;
-}
-
-
-.card2 {
-    background-color: white;
-    
-  }
-
-  .card-header2 {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 34px;
-    line-height: 41px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #EBD016;
-
-  }
-
-  .card-body2 {
-    font-family: GilLight;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
-    line-height: 27px;
-    color: #000000;
-    text-align: left;
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-
-  #pessoasbg {
-    background-color: white;
-    background-image: url(imagens/pessoasbg.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
-
-  .card3 {
-    background: #EBD016;
-    border-radius: 25px;
-    margin-top: 20%;
-    margin-left: 10%;
-    margin-bottom: 20%;
-  }
-
-  .card-header3 {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 34px;
-    line-height: 41px;
-    text-align: center;
-    color: #FFFFFF;
-    padding-top: 5%;
-    padding-right: 5%;
-    padding-left: 5%;
-  }
-
-  .card-body3 {
-    font-family: GilLight;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
-    line-height: 27px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #000000;
-    padding-right: 5%;
-    padding-left: 5%;
-  }
-
-  .card-footer3 {
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-bottom: 5%;
-  }
-
-
-  .form-control11{
-    margin-bottom: 7px;
-    width: 100%;
-    border: 2px solid #8B8989;
-    box-sizing: border-box;
-    border-radius: 15px;
-    background: black;
-    height: 40px;
-    text-align: left;
-    padding-left: 10px;
-    color: black;
-}
-
-.form-control22{
-    width: 100%;
-    border: 2px solid #8B8989;
-    box-sizing: border-box;
-    border-radius: 15px;
-    background: black;
-    height: 40px;
-    text-align: left;
-    padding-left: 10px;
-    color: black;;
-}
-
-#button2 {
-
-    background: #2A2B49;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
-    margin-left: 30%;
-}
-
-
-.msgdownload{
-font-family: Montserrat;
-font-style: normal;
-font-weight: 800;
-font-size: 48px;
-line-height: 59px;
-text-align: center;
-color: #EBD016;
-}
-
-.msgdownload2{
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 50px;
-  line-height: 37px;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-.download{
-  /* width: 1182px;
-height: 640px;
-left: 369px;
-top: 195px; */
-background-color: black;
-}
-
-@media (min-width: 768px){
-
-  #dark {
-    font-size: 100px;
-      }
-
-  .container-fluid {
-        background-color: white;
-        background-image: url(imagens/darkbg.jpg);
-        background-repeat: no-repeat;
-        margin-bottom: 2%;
-        background-size: 100%;
+        <img src="imagens/logocomfundo.png" class="logocomfundo1">
+        <a href="https://www.facebook.com/maratonandosuaserie/" class="facebook">
+        <img src="imagens/facebook-logo.svg" img-responsive img-thumbnail width="100%">
+      </a>
+        <a href="https://www.instagram.com/maratonandosuaserie/" class="insta">
+        <img src="imagens/instagram-logo.svg" img-responsive img-thumbnail width="100%">
+      </a>
+    </div>
         
-    }
-
-}
-
-.container-fluid-tks{
-
-  background-color: black;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  margin-bottom: 10%;
-  height: 200%;
-  background-size: 170%;
-
-}
-
-.container-mensagem{
-  background: rgba(0, 0, 0, 0.8);
-  border-radius: 25px;
-  width: 50%;
-  margin-left: 10%;
-  margin-top: 5%;
-  max-height: 400px;
-}
-
-.container-fluid-apx-serie{
-  background-color: white;
-  background-image: url(imagens/pessoasbg.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  /* margin-bottom: 10%; */
-  height: 250%;
-  background-size: 100%;
-  
-}
-
-.msgdownload3{
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 200;
-  font-size: 30px;
-  line-height: 37px;
-  text-align: center;
-  color: #FFFFFF;
-  }
-
-  .ul-menu{
-    height: 50px;
-    color: white;
-  }
 
 
+          <div class="container-mensagem-Tnkspage"  >
+            <br>
+            <br>
+        <div class="msgdownload">
+            AGRADECEMOS O SEU CADASTRO!
+          </div>
+          <br>
 
+          <div class=msgdownload2>
+            Seu conteúdo exclusivo já está pronto para download!
+            <br>
+            <br>
+            <br>
+            <br>
+            <a href="imagens/Download/Dark_Infográfico_Maratonando_sua_serie.png" target="_blank">
+                <input type="button" class="btn btn-primary" value="Clique aqui para Baixar" />
+            </a>
+          </div>
+          <br>
+          <br>
+          <br>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+
+    </div>
+
+    </body>
+
+</html>
 
 
 
