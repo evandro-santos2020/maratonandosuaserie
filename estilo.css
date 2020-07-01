@@ -32,7 +32,7 @@ body {
 }
 
 h3 {
-    font-family: Montserrat;
+    font-family: Montserrat-Bold;
     font-style: normal;
     font-weight: 800;
     font-size: 30px;
@@ -136,7 +136,7 @@ h3 {
   }
 
 .card-header {
-    font-family: Montserrat;
+    font-family: Montserrat-Bold;
     font-style: normal;
     font-weight: 800;
     font-size: 34px;
@@ -152,7 +152,7 @@ h3 {
 .card-body {
     margin-left: 20px;
     margin-right: 20px;
-    font-family: GilLight;
+    font-family: Montserrat-Light;
     font-style: normal;
     font-weight: 300;
     font-size: 22px;
@@ -166,7 +166,7 @@ h3 {
 .card-footer {
     margin-left: 20px;
     margin-right: 20px;
-    font-family: Montserrat;
+    font-family: Montserrat-Light;
     font-style: normal;
     font-weight: 800;
     font-size: 34px;
@@ -178,7 +178,7 @@ h3 {
 }
 
 .form-group {
-    font-family: GilLight;
+    font-family: Montserrat-Light;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -190,7 +190,7 @@ h3 {
 }
 
 .info {
-    font-family: GilLight;
+    font-family: Montserrat-Light;
     font-style: normal;
     font-weight: 800;
     font-size: 26px;
@@ -251,7 +251,7 @@ h3 {
   }
 
   .card-header2 {
-    font-family: Montserrat;
+    font-family: Montserrat-Bold;
     font-style: normal;
     font-weight: 800;
     font-size: 34px;
@@ -263,7 +263,7 @@ h3 {
   }
 
   .card-body2 {
-    font-family: GilLight;
+    font-family: Montserrat-Light;
     font-style: normal;
     font-weight: 300;
     font-size: 22px;
@@ -290,26 +290,26 @@ h3 {
   }
 
   .card-header3 {
-    font-family: Montserrat;
+    font-family: Montserrat-Bold;
     font-style: normal;
     font-weight: 800;
     font-size: 34px;
     line-height: 41px;
     text-align: center;
-    color: #FFFFFF;
+    color: #2A2B49;;
     padding-top: 5%;
     padding-right: 5%;
     padding-left: 5%;
   }
 
   .card-body3 {
-    font-family: GilLight;
+    font-family: Montserrat-Light;
     font-style: normal;
     font-weight: 300;
     font-size: 22px;
     line-height: 27px;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: none;
     color: #000000;
     padding-right: 5%;
     padding-left: 5%;
@@ -357,7 +357,7 @@ h3 {
 
 
 .msgdownload{
-font-family: Montserrat;
+font-family: Montserrat-Bold;
 font-style: normal;
 font-weight: 800;
 font-size: 48px;
@@ -367,7 +367,7 @@ color: #EBD016;
 }
 
 .msgdownload2{
-  font-family: Montserrat;
+  font-family: Montserrat-Bold;
   font-style: normal;
   font-weight: 600;
   font-size: 35px;
@@ -441,7 +441,7 @@ background-color: black;
 }
 
 .msgdownload3{
-  font-family: Montserrat;
+  font-family: Montserrat-Bold;
   font-style: normal;
   font-weight: 200;
   font-size: 30px;
@@ -479,7 +479,7 @@ background-color: black;
 }
 
 .msgdownload-lgbtqi{
-  font-family: Montserrat;
+  font-family: Montserrat-Bold;
   font-style: normal;
   font-weight: 800;
   font-size: 38px;
@@ -489,7 +489,7 @@ background-color: black;
   }
   
   .msgdownload2-lgbtqi{
-    font-family: Montserrat;
+    font-family: Montserrat-Bold;
     font-style: normal;
     font-weight: 600;
     font-size: 25px;
@@ -510,7 +510,7 @@ background-color: black;
   }
 
   #txtorgulho {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Montserrat-Bold;
     font-style: normal;
     font-weight: 500;
     font-size: 100px;
@@ -522,7 +522,7 @@ background-color: black;
 
 
   .card-header-orgulho {
-    font-family: Montserrat;
+    font-family: Montserrat-Bold;
     font-style: normal;
     font-weight: 800;
     font-size: 34px;
@@ -538,7 +538,7 @@ background-color: black;
 .card-body-orgulho {
     margin-left: 20px;
     margin-right: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Montserrat-Light;
     font-style: normal;
     font-weight: 300;
     font-size: 22px;
@@ -546,13 +546,14 @@ background-color: black;
     display: flex;
     align-items: center;
     color: black;
+    text-align: left;
 }
 
 
 .card-footer-orgulho {
     margin-left: 20px;
     margin-right: 20px;
-    font-family: Montserrat;
+    font-family: Montserrat-Bold;
     font-style: normal;
     font-weight: 800;
     font-size: 34px;
@@ -564,7 +565,7 @@ background-color: black;
 }
 
 .info-orgulho {
-  font-family: GilLight;
+  font-family: Montserrat-Bold;
   font-style: normal;
   font-weight: 800;
   font-size: 26px;
@@ -609,13 +610,15 @@ background-color: black;
 }
 
 
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(fonts/Montserrat-Light.ttf);
+}
 
-
-
-
-
-
-
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(fonts/Montserrat-Bold.ttf);
+}
 
 
 
