@@ -30,9 +30,55 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="estilo.css" />
+
+  <script type="text/javascript">
+    //Constrói a URL depois que o DOM estiver pronto
+    document.addEventListener("DOMContentLoaded", function() {
+        //conteúdo que será compartilhado: Título da página + URL
+        var conteudo = encodeURIComponent(document.title + " " + "https://maratonandosuaserie.com");
+        //altera a URL do botão
+        document.getElementById("whatsapp-share-btt").href = "https://api.whatsapp.com/send?text=" + conteudo;
+    }, false);
+</script>
+
+
+<script type="text/javascript">
+  //Constrói a URL depois que o DOM estiver pronto
+  document.addEventListener("DOMContentLoaded", function() {
+      var url = "https://maratonandosuaserie.com"; //url
+      var title = encodeURIComponent(document.title); //título
+      var telegramLink = "https://telegram.me/share/url?url=" + url + "&text=" + title;
+      document.getElementById("telegram-share-btt").href = telegramLink;
+  }, false);
+</script>
+
+<script type="text/javascript">
+  //Constrói a URL depois que o DOM estiver pronto
+  document.addEventListener("DOMContentLoaded", function() {
+      var url = "https://maratonandosuaserie.com";
+      var titulo = encodeURIComponent(document.title);
+      //var via = encodeURIComponent("usuario-twitter"); //nome de usuário do twitter do seu site
+      //altera a URL do botão
+      document.getElementById("twitter-share-btt").href = "https://twitter.com/intent/tweet?url="+url+"&text="+titulo;
+      
+      //se for usar o atributo via, utilize a seguinte url
+      //document.getElementById("twitter-share-btt").href = "https://twitter.com/intent/tweet?url="+url+"&text="+titulo+"&via="+via;
+  }, false);
+</script>
+
+<script type="text/javascript">
+  //Constrói a URL depois que o DOM estiver pronto
+  document.addEventListener("DOMContentLoaded", function() {            
+      //altera a URL do botão
+      document.getElementById("facebook-share-btt").href = "https://www.facebook.com/sharer/sharer.php?u=" + "https://maratonandosuaserie.com";
+  }, false);
+</script>
        
     <body>
-    <div class="container-fluid-apx-serie">
+
+      
+    
+          <div class="container-fluid-apx-serie-2">
         
 
          <div class="col-xs-12 col-sm-12" id="logoscabecalho">
@@ -56,7 +102,7 @@
           </div>    
 
 
-          <div class=container-mensagem style="max-height: 450px;">
+          <div class=container-mensagem>
             <br>
           
         <div class=msgdownload>
@@ -88,9 +134,23 @@
                     </div>
                     <br>
                     <p>
-                        Pegue sua pipoca e vem maratonar com a gente!🛋️ 🍿
+                        Compartilhe com seus amigos, pegue sua pipoca e vem maratonar com a gente!🛋️ 🍿
+                      
                     </p>
 
+
+                    <!-- <div class="fb-share-button" data-href="https://maratonandosuaserie.com" 
+                    data-layout="button" data-size="large">
+                    <a target="_blank" 
+                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmaratonandosuaserie.com%2F&amp;src=sdkpreparse" 
+                    class="whatsapp-share-button"></a></div> -->
+                    <!-- fb-xfbml-parse-ignore -->
+
+        <a href="" id="whatsapp-share-btt" rel="nofollow" target="_blank" class="whatsapp-share-button"></a>
+        <a href="" id="facebook-share-btt" rel="nofollow" target="_blank" class="facebook-share-button"></a>
+        <a href="" id="telegram-share-btt" rel="nofollow" target="_blank" class="telegram-share-button"></a>   
+        <a href="" id="twitter-share-btt" rel="nofollow" target="_blank" class="twitter-share-button"></a>              
+         <br>
             <br>
             <!-- <a href="imagens/Download/Dark_Infográfico_Maratonando_sua_serie.png" target="_blank"> -->
             <!-- <input type="button" class="btn btn-primary" value="Clique aqui para Baixar" /> -->
@@ -110,6 +170,8 @@
     </body>
 
 </html>
+
+
 
 
 
