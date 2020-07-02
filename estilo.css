@@ -64,18 +64,18 @@ h3 {
     display: block;
     margin-left: 25%;
     margin-right: auto;
-    margin-top: 40%;
-    width: 50%;
+    /* margin-top: 40%; */
+    width: 40%;
   }
 
 
   .logocomfundo1 {
-    display: block;
+    /* display: block; */
     margin-left: 40%;
-    margin-right: auto;
-    margin-top: 0px;
-    max-height: 150px
-  }
+    margin-right: 30%;
+    /* margin-top: 0px; */
+    max-height: 150px;
+}
 
   .logocomfundo2 {
     display: block;
@@ -85,14 +85,13 @@ h3 {
     width: 20%;
   }
 
-  .logocomfundofinal{
+  .logocomfundofinal {
     display: block;
     margin-left: 40%;
-    margin-right: auto;
+    margin-right: 10%;
     margin-top: auto;
-    width: 30%;
-
-  }
+    width: 20%;
+}
 
 #logoscabecalho {
   display: flex;
@@ -106,17 +105,16 @@ h3 {
 
 .facebook {
   display: flex;
-  margin-left: 20%;
-  margin-top: 0px;
+  /* margin-left: 20%; */
+  /* margin-top: 0px; */
   width: 70px;
-  
 }
 
 .insta {
   display: flex;
-  margin-right: 0px;
-  margin-top: 0px;
-  padding-left: 5px;
+  /* margin-right: 0px; */
+  /* margin-top: 0px; */
+  /* padding-left: 5px; */
   width: 70px;
 }
 
@@ -400,7 +398,7 @@ background-color: black;
         background-image: url(imagens/darkbg.jpg);
         background-repeat: no-repeat;
         margin-bottom: 2%;
-        background-size: 200%;
+        background-size: 100%;
      }
 
 }
@@ -683,18 +681,4 @@ background-color: black;
 .rodape{
   background-color: black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
