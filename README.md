@@ -1,5 +1,35 @@
-# PowerGem
+<p align="center">
+    <img alt="logo" src="https://github.com/evandro-santos2020/maratonandosuaserie/tree/master/imagens/logocomfundo.jpg?raw=true" width="200px" />
+</p>
 
-PowerGem Project
+<h1 align="center">
+  Aplicação Maratonando sua Série!
+</h1>
 
-#GOPOWERGEM
+<p align="center">Aqui você encontrará curadorias feitas com muito carinho pela nossa equipe especialmente para você! #FIQUEEMCASA 🏠</p>
+
+<p align="center">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-191A1E">
+
+  <a href="https://github.com/evandro-santos2020">
+    <img alt="Made by Evandro Santos" src="https://img.shields.io/badge/Made%20by-Evandro%20Santos-191A1E">
+  </a>
+
+
+</p>
+
+![Demonstração](https://www.maratonandosuaserie.com/)
+
+## 🚀 Projeto
+
+O objetivo do projeto é criar um canal de incentivo com conteúdo de séries e filmes.
+
+## 🔧 Tecnologias
+
+- HTML: Estrutura
+- CSS: FlexBox e Responsividade
+
+---
+
+Feito com ♥  by [Evandro Santos]
+
