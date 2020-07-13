@@ -1,9 +1,9 @@
 <p align="center">
-    <img alt="logo" src="https://github.com/evandro-santos2020/maratonandosuaserie/tree/master/imagens/logocomfundo.jpg?raw=true" width="200px" />
+    <img alt="logo" src="https://github.com/evandro-santos2020/maratonandosuaserie/imagens/logocomfundo.jpg?raw=true" width="200px" />
 </p>
 
 <h1 align="center">
-  Aplicação Maratonando sua Série!
+  Maratonando sua Série!
 </h1>
 
 <p align="center">Aqui você encontrará curadorias feitas com muito carinho pela nossa equipe especialmente para você! #FIQUEEMCASA 🏠</p>
@@ -18,7 +18,6 @@
 
 </p>
 
-![Demonstração](https://www.maratonandosuaserie.com/)
 
 ## 🚀 Projeto
 
