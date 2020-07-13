@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="logo" src="https://github.com/evandro-santos2020/maratonandosuaserie/imagens/logocomfundo.jpg?raw=true" width="200px" />
+    <img alt="logo" src="https://github.com/evandro-santos2020/maratonandosuaserie/imagens/logocomfundo.png?raw=true" width="200px" />
 </p>
 
 <h1 align="center">
