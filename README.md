@@ -30,5 +30,5 @@ O objetivo do projeto é criar um canal de incentivo com conteúdo de séries e 
 
 ---
 
-Feito com ♥  by [Evandro Santos]
+Feito com ♥  by [Evandro Santos e equipe Power Gem]
 
